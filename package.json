@@ -1,0 +1,19 @@
+{
+  "name": "node-red-test-node",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "license": "UNLICENSED",
+  "author": "Pez Cuckow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "common-js-lower-case": "lower-case-cjs.cjs",
+      "esm-lower-case": "lower-case-mjs.mjs",
+      "js-lower-case": "lower-case-js.js"
+    }
+  }
+}
